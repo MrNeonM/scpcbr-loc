@@ -1,0 +1,561 @@
+# LANGUAGE translation for SCP - Containment Breach Reborn for the following files:
+# res://content/Scenes/Menus/new_settings.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SCP - Containment Breach Reborn\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_AU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "[display_mode]"
+msgstr "Display Mode"
+
+msgid "[display_mode_info]"
+msgstr ""
+"Windowed - Runs in a separate window on the desktop\n"
+"\n"
+"Fullscreen - Fills the entire screen.\n"
+"\n"
+"Exclusive fullscreen - Runs in fullscreen mode, and prevents other "
+"applications from overlaying or interfering."
+
+msgid "[vsync_mode]"
+msgstr "Vsync Mode"
+
+msgid "[vsync_mode_info]"
+msgstr ""
+"Synchronizes the frame rate of the game to your monitor to reduce tearing.\n"
+"\n"
+"Disabled - No Vsync, frames will be displayed as fast as possible, and the "
+"frame rate is not limited to the refresh rate of the monitor.\n"
+"[Pro: Reduced input lag. | Con: Increased likelhood of tearing at low frame "
+"rates.]\n"
+"\n"
+"Enabled - Default Vsync, frames are synchronized with the monitor's refresh "
+"rate to reduce tearing.\n"
+"[Pro: Eliminates tearing completely. | Con: Introduces input lag as the game "
+"has to wait to display each frame.]\n"
+"\n"
+"Adaptive Vsync - Vsync adapts to the frame rate, enabling Vsync when the "
+"frame rate is below the refresh rate, and disabling it when the frame rate "
+"exceeds the refresh rate to reduce input lag.\n"
+"[Pro: Minimises input lag at higher frame rates. | Con: During varying frame "
+"rates and switching, visual irregularities could appear.]\n"
+"\n"
+"Mailbox - A double-buffered implementation to minimise tearing, displays the "
+"most recent frame when possible and does not limit frame rate.\n"
+"[Pro: Reduces tearing significantly as frames are only displayed when the "
+"monitor refreshes. | Con: Increased input lag compared to disabled.]"
+
+msgid "[shadow_quality]"
+msgstr "Shadow Quality"
+
+msgid "[shadow_quality_info]"
+msgstr ""
+"Sets the shadow map resolution and shadow filtering quality.\n"
+"\n"
+"Primarily affects Video Memory Usage and GPU Performance."
+
+msgid "[gi_quality]"
+msgstr "GI Quality"
+
+msgid "[gi_quality_info]"
+msgstr ""
+"Global Illumination quality. Primarily affects Video Memory Usage, CPU "
+"Performance, and GPU Performance."
+
+msgid "[shader_quality]"
+msgstr "Shader Quality"
+
+msgid "[shader_quality_info]"
+msgstr ""
+"Sets the quality of shader calculations.\n"
+"\n"
+"Low - Full PBR + Normal Detail Mapping\n"
+"Medium - Depth Offset Mapping + PBR Detail Mapping\n"
+"High - Contact Refined Parallax Mapping (CRPM)\n"
+"Ultra - CRPM with Parallax Self Shadows\n"
+"\n"
+"Primarily affects System Memory Usage, Video Memory Usage, and GPU "
+"Performance."
+
+msgid "[anti_alising]"
+msgstr "Anti-aliasing"
+
+msgid "[anti_alising_info]"
+msgstr ""
+"FXAA - Fast Approximate Anti-Aliasing, a lightweight post-effect method that "
+"reduces jagged edges by blurring detected edges.\n"
+"Negligable impact on GPU Performance.\n"
+"\n"
+"MSAA - Multi-Sampling Anti-Aliasing, samples multiple pixels around detected "
+"edges to construct smoother edges.\n"
+"Slight to moderate impact on GPU Performance.\n"
+"\n"
+"TAA - Temporal Anti-Aliasing, samples pixels from past and current frames to "
+"construct smoother edges. Due to the use of previous frames TAA can clean-up "
+"effects such as dithering and alpha hashing, however it can also introduce "
+"ghosting, smearing, and disocclusion artifacts in motion.\n"
+"\n"
+"Moderate impact on GPU Performance."
+
+msgid "[3d_scaling]"
+msgstr "3D Scaling"
+
+msgid "[3d_scaling_info]"
+msgstr ""
+"Bilinear - Halves the resolution by using a simple averaging method.\n"
+"[Pro: Significantly reduces the GPU load. | Con: More noticeable loss in "
+"q];\n"
+"ality compared to other techniques.]\n"
+"\n"
+"FSR - FidelityFX Super Resolution, an upscaling technology developed by "
+"AMD.\n"
+"\n"
+"Performance :: 50% resolution :: Input; 960 x 540. Output; 1920 x 1080.\n"
+"\n"
+"Balanced :: 59% resolution :: Input; 1129 x 635. Output; 1920 x 1080.\n"
+"Q\\\\\\\\\\\\\\']\ality :: 67% resolution :: Input; 1280 x 720. Output; 1920 "
+"x 1080.\n"
+"/'Ultra Quality :: 77% resolution :: Input; 1477 x 831. Output; 1920 x 1080."
+
+msgid "[field_of_view]"
+msgstr "Field of View"
+
+msgid "[field_of_view_info]"
+msgstr "The Field of View of the player, in degrees."
+
+msgid "[reflections]"
+msgstr "Reflections"
+
+msgid "[reflections_info]"
+msgstr ""
+"Screen Space Reflections (SSR). Blends reflections into glossy surfaces in "
+"screen space using reprojection. Due to being a screen space effect you may "
+"see disocclusion artifacts, however likely only for objects of dynamic "
+"objects as they are not in the baked reflection probes.\n"
+"\n"
+"Primarily affects GPU Performance."
+
+msgid "[ambient_occlusion]"
+msgstr "Ambient Occlusion"
+
+msgid "[ambient_occlusion_info]"
+msgstr ""
+"Screen Space Ambient Occlusion (SSAO). Darkens interiors, corners, and "
+"cavities in screen space using a horizon based model (commonly known as "
+"HBAO). Due to being a screen space effect you may see disocclusion "
+"artefacts.\n"
+"\n"
+"Primarily affects GPU Performance."
+
+msgid "[indirect_lighting]"
+msgstr "Indirect Lighting"
+
+msgid "[indirect_lighting_info]"
+msgstr ""
+"Screen Space Indirect Lighting / Illumination (SSIL). Samples the HDR "
+"lighting buffer to provide indirect illumination in screen space. Due to "
+"being a screen space effect you may see disocclusion artefacts. This effect "
+"is especially prone to shimmer and strange behaviour.\n"
+"\n"
+"Primarily affects GPU Performance."
+
+msgid "[move_forward]"
+msgstr "Move Forwards"
+
+msgid "[move_forward_info]"
+msgstr " "
+
+msgid "[move_backward]"
+msgstr "Move Backwards"
+
+msgid "[move_backward_info]"
+msgstr " "
+
+msgid "[move_left]"
+msgstr "Move Left"
+
+msgid "[move_left_info]"
+msgstr " "
+
+msgid "[move_rights]"
+msgstr "Move Right"
+
+msgid "[move_rights_info]"
+msgstr " "
+
+msgid "[sprint]"
+msgstr "Sprint"
+
+msgid "[sprint_info]"
+msgstr "A temporary burst of speed."
+
+msgid "[blink]"
+msgstr "Blink"
+
+msgid "[blink_info]"
+msgstr "Used to interact with certain SCPs in various ways."
+
+msgid "[suppress_blink]"
+msgstr "Suppress Blink"
+
+msgid "[suppress_blink_info]"
+msgstr ""
+"Hold your eyes open for longer at the cost of your blink meter temporarily "
+"draining faster."
+
+msgid "[crouch]"
+msgstr "Crouch"
+
+msgid "[crouch_info]"
+msgstr " "
+
+msgid "[inventory]"
+msgstr "Inventory"
+
+msgid "[inventory_info]"
+msgstr "Opens/closes your inventory."
+
+msgid "[throw]"
+msgstr "Throw"
+
+msgid "[throw_info]"
+msgstr "Allows you to throw most equipped items."
+
+msgid "[utility]"
+msgstr "Utility"
+
+msgid "[utility_info]"
+msgstr "Quick-equip an item from a bound utility slot."
+
+msgid "[primary]"
+msgstr "Primary"
+
+msgid "[primary_info]"
+msgstr "Uses the item in your primary hand/interacts with the world."
+
+msgid "[secondary]"
+msgstr "Secondary"
+
+msgid "[secondary_info]"
+msgstr "Secondary use for main hand, or uses offhand."
+
+msgid "[mouse_sensitivity]"
+msgstr "Mouse Sensitivity"
+
+msgid "[mouse_sensitivity_info]"
+msgstr " "
+
+msgid "[mouse_inversion]"
+msgstr "Mouse Inversion"
+
+msgid "[mouse_inversion_info]"
+msgstr " "
+
+msgid "[master_volume]"
+msgstr "Master Volume"
+
+msgid "[master_volume_info]"
+msgstr "Global volume control."
+
+msgid "[music_volume]"
+msgstr "Music Volume"
+
+msgid "[music_volume_info]"
+msgstr "Volume control for all music."
+
+msgid "[dialogue_volume]"
+msgstr "Dialogue Volume"
+
+msgid "[dialogue_volume_info]"
+msgstr "Volume control for all speech."
+
+msgid "[effects_volume]"
+msgstr "Effects Volume"
+
+msgid "[effects_volume_info]"
+msgstr "Volume control for all sound effects."
+
+msgid "[ui_volume]"
+msgstr "UI Volume"
+
+msgid "[ui_volume_info]"
+msgstr "Volume control for all UI sounds."
+
+msgid "[epilepsy_friendly]"
+msgstr "Epilepsy-friendly mode"
+
+msgid "[epilepsy_friendly_info]"
+msgstr ""
+"Minimises flashing and flickering lights. requires reloading the scene to "
+"apply."
+
+msgid "[camera_shake]"
+msgstr "Camera Shake Strength"
+
+msgid "[camera_shake_info]"
+msgstr "How much the camera can be shaken."
+
+msgid "[text_prompts]"
+msgstr "Text Prompts"
+
+msgid "[text_prompts_info]"
+msgstr "Displays item names in-game."
+
+msgid "[subtitles]"
+msgstr "Subtitles"
+
+msgid "[subtitles_info]"
+msgstr " "
+
+msgid "[apply]"
+msgstr "Apply"
+
+msgid "[save]"
+msgstr " Save "
+
+msgid "[discard]"
+msgstr " Discard "
+
+msgid "[graphics]"
+msgstr "Graphics"
+
+msgid "[input]"
+msgstr "Input"
+
+msgid "[audio]"
+msgstr "Audio"
+
+msgid "[accessibility]"
+msgstr "Accessibility"
+
+msgid "[windowed]"
+msgstr "Windowed"
+
+msgid "[fullscreen]"
+msgstr "Fullscreen"
+
+msgid "[exclusive_fullscreen]"
+msgstr "Exclusive Fullscreen"
+
+msgid "[disabled]"
+msgstr "Disabled"
+
+msgid "[enabled]"
+msgstr "Enabled"
+
+msgid "[adaptive]"
+msgstr "Adaptive"
+
+msgid "[mailbox]"
+msgstr "Mailbox"
+
+msgid "[potato]"
+msgstr "Potato"
+
+msgid "[low]"
+msgstr "Low"
+
+msgid "[medium]"
+msgstr "Medium"
+
+msgid "[high]"
+msgstr "High"
+
+msgid "[very_high]"
+msgstr "Very High"
+
+msgid "[ultra]"
+msgstr "Ultra"
+
+msgid "[fxaa]"
+msgstr "FXAA"
+
+msgid "[fxaa_msaa_2]"
+msgstr "FXAA & MSAA x2"
+
+msgid "[fxaa_msaa_4]"
+msgstr "FXAA & MSAA x4"
+
+msgid "[fxaa_msaa_8]"
+msgstr "FXAA & MSAA x8"
+
+msgid "[fxaa_msaa_8_taa]"
+msgstr "FXAA & MSAA x8 & TAA"
+
+msgid "[bilinear_half]"
+msgstr "Bilinear 0.5x"
+
+msgid "[fsr_performace]"
+msgstr "FSR - Performance"
+
+msgid "[fsr_balanced]"
+msgstr "FSR - Balanced"
+
+msgid "[fsr_quality]"
+msgstr "FSR - Quality"
+
+msgid "[fsr_ultra_quality]"
+msgstr "FSR - Ultra Quality"
+
+msgid "[none]"
+msgstr "None"
+
+msgid "[invert_y]"
+msgstr "Invert Y"
+
+msgid "[invert_x]"
+msgstr "Invert X"
+
+msgid "[inverted]"
+msgstr "Inverted"
+
+msgid "[dialogue_only]"
+msgstr "Dialogue Only"
+
+msgid "[environment_only]"
+msgstr "Environment Only"
+
+msgid "[dialogue_environment]"
+msgstr "Dialogue & Environment"
+
+# Item keywords translations
+msgid "[item_battery]"
+msgstr "Battery"
+
+msgid "[item_battery_desc]"
+msgstr "Can be applied to powered items, such as torches."
+
+msgid "[item_torch]"
+msgstr "Torch"
+
+msgid "[item_torch_desc]"
+msgstr "A standard Foundation issued torch for use in emergencies."
+
+msgid "[item_714]"
+msgstr "SCP-714"
+
+msgid "[item_714_desc]"
+msgstr "It seems to be a jade ring with no distinguishing patterns or marks."
+
+msgid "[item_keycard_0]"
+msgstr "Guest Keycard"
+
+msgid "[item_keycard_0_desc]"
+msgstr "Grants access to guest-only areas."
+
+msgid "[item_keycard_1]"
+msgstr "Basic Access Keycard"
+
+msgid "[item_keycard_1_desc]"
+msgstr "Grants access to level 1 areas."
+
+msgid "[item_keycard_2]"
+msgstr "Low Security Keycard"
+
+msgid "[item_keycard_2_desc]"
+msgstr "Grants access to level 2 areas."
+
+msgid "[item_keycard_3]"
+msgstr "High Security Keycard"
+
+msgid "[item_keycard_3_desc]"
+msgstr "Grants access to level 3 areas."
+
+msgid "[item_keycard_4]"
+msgstr "Zone Access Keycard"
+
+msgid "[item_keycard_4_desc]"
+msgstr "Grants access to level 4 areas."
+
+msgid "[item_keycard_5]"
+msgstr "Site Access Keycard"
+
+msgid "[item_keycard_5_desc]"
+msgstr "Grants access to level 5 areas."
+
+msgid "[item_keycard_6]"
+msgstr "Override Keycard"
+
+msgid "[item_keycard_6_desc]"
+msgstr ""
+"Good job learning how to use the console, buddy. Bet you feel really proud "
+"of that one, huh?"
+
+# Misc keywords translations
+msgid "[containment_breach]"
+msgstr "CONTAINMENT BREACH"
+
+msgid "[secure_contain_protect]"
+msgstr "Secure. Contain. Protect."
+
+msgid "[new_game]"
+msgstr "New Game"
+
+msgid "[load_game]"
+msgstr "Load Game"
+
+msgid "[sandbox]"
+msgstr "Sandbox"
+
+msgid "[settings]"
+msgstr "Settings"
+
+msgid "[credits]"
+msgstr "Credits"
+
+msgid "[quit]"
+msgstr "Quit"
+
+msgid "[name]"
+msgstr "Name:"
+
+msgid "[map_seed]"
+msgstr "Map Seed:"
+
+msgid "[difficulty]"
+msgstr "Difficulty:"
+
+msgid "[permadeath]"
+msgstr "Permadeath:"
+
+msgid "[save_anywhere]"
+msgstr "Save Anywhere:"
+
+msgid "[aggressive_scps]"
+msgstr "Aggressive SCPs:"
+
+msgid "[other_factors]"
+msgstr "Other Factors:"
+
+msgid "[intro_sequence]"
+msgstr "Intro Sequence:"
+
+msgid "[safe]"
+msgstr "Safe"
+
+msgid "[euclid]"
+msgstr "Euclid"
+
+msgid "[keter]"
+msgstr "Keter"
+
+msgid "[custom]"
+msgstr "Custom"
+
+msgid "[full]"
+msgstr "Full"
+
+msgid "[reduced]"
+msgstr "Reduced"
